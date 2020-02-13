@@ -1,0 +1,21 @@
+How to install XMind
+
+First Download, 
+* Download this link http://www.xmind.net/xmind/downloads/xmind-8-beta-linux_amd64.deb
+
+Second, go to download file location and open terminal
+
+* sudo dpkg -i xmind-8-beta-linux_amd64.deb
+
+If u see this error at terminal, 
+dpkg : dependency problems prevent configuration...
+dpkg : error processing package xmind(--install):...
+
+Please type at terminal , 
+* sudo apt --fix-broken install
+
+You can reference at youtube, https://www.youtube.com/watch?v=hE-QdcX5yQo
+
+
+
+
